@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taman Nongki</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+
+  <body class="bg-dark min-h-full">
+    <!-- Navbar Section Start -->
+    <nav
+      class="fixed top-0 left-0 w-full flex items-center z-10 bg-dark bg-opacity-70"
+    >
+      <div class="w-full relative">
+        <div class="container mx-auto p-4">
+          <div class="flex flex-wrap items-center justify-between">
+            <div class="text-2xl md:text-4xl text-scond italic font-bold">
+              <a href="#home">Bairuha<span class="text-primary">Kopi</span>.</a>
+            </div>
+            <div class="">
+              <div
+                id="nav-menu"
+                class="hidden absolute bg-white w-48 h-screen lg:h-auto right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:w-auto"
+              >
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a
+                      href="#home"
+                      class="text-base md:text-xl text-dark lg:text-scond flex py-3 mx-8 group-hover:text-primary"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#about"
+                      class="text-base md:text-xl text-dark lg:text-scond flex py-3 mx-8 group-hover:text-primary"
+                      >Tentang Kami</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#menu"
+                      class="text-base md:text-xl text-dark lg:text-scond flex py-3 mx-8 group-hover:text-primary"
+                      >Menu</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#contact"
+                      class="text-base md:text-xl text-dark lg:text-scond flex py-3 mx-8 group-hover:text-primary"
+                      >Kontak</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap items-center justify-between gap-4 text-scond"
+            >
+              <a href="#" id="search" class="md:text-xl hover:text-primary">
+                <i data-feather="search" class="w-[30px]"></i>
+              </a>
+              <a href="#" id="shopping-cart" class="hover:text-primary">
+                <i data-feather="shopping-cart" class="md:text-xl"></i>
+              </a>
+              <div id="hamburger" class="lg:hidden">
+                <i data-feather="menu"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pb-24">
+      <div
+        class="w-full h-screen flex items-center bg-[url('/dist/img/Coffe.jpg')] bg-no-repeat bg-cover bg-center relative"
+      >
+        <div class="hero"></div>
+        <div class="p-4 w-3/4 lg:w-1/2 ml-2 lg:ml-11 h-auto">
+          <h1
+            class="text-3xl md:text-7xl text-scond font-semibold leading-none"
+          >
+            Mari Nikmati Secangkir
+            <span class="text-amber-900">Kopi</span>
+          </h1>
+          <p class="text-sm md:text-xl mt-2 mb-8 text-scond">
+            Rasakan kenikmatan kopi yang dipadukan dengan berbagai paduan rasa
+            yang menyentuh lidah
+          </p>
+          <a
+            href="https://wa.me/6281326984583"
+            class="py-4 px-10 text-sm md:text-xl text-scond bg-primary hover:bg-amber-800 rounded-xl shadow-md"
+            >Beli Sekarang</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-32 pb-24">
+      <div class="container mx-auto">
+        <div class="mx-auto">
+          <h2
+            class="text-primary text-2xl lg:text-4xl mb-10 text-center font-semibold"
+          >
+            <span class="text-scond">Tentang</span> Kami
+          </h2>
+        </div>
+        <div class="flex flex-wrap mx-auto">
+          <div class="md:w-1/2">
+            <img
+              src="/dist/img/coffe-about.jpg"
+              alt="Tentang Kami"
+              class="object-cover"
+            />
+          </div>
+          <div class="md:w-1/2 px-3">
+            <h3 class="text-xl font-semibold mb-2">
+              Kenapa Memilih Kopi Kami?
+            </h3>
+            <p class="text-sm lg:text-base font-thin mb-2 leading-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              molestiae neque ea fuga perferendis pariatur.
+            </p>
+            <p class="text-sm lg:text-base font-thin mb-2 leading-6">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique minima explicabo aspernatur libero sapiente vitae velit
+              repudiandae exercitationem architecto totam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="pt-32 pb-24">
+      <div class="container mx-auto">
+        <div class="mx-auto">
+          <h2
+            class="text-primary text-2xl lg:text-4xl mb-10 text-center font-semibold"
+          >
+            Menu <span class="text-scond">Kami</span>
+          </h2>
+          <p
+            class="px-4 mx-auto text-center max-w-xl text-sm lg:text-base mb-2"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem
+            molestias mollitia sunt molestiae fuga itaque voluptates sapiente
+            laborum saepe!
+          </p>
+        </div>
+        <div class="mx-auto flex flex-wrap mt-10 justify-center max-w-6xl">
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/capucino.jpg"
+              alt="capucino"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Capucino -</h3>
+              <p class="font-semibold">IDR 15K</p>
+            </div>
+          </div>
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/coffe.jpg"
+              alt="coffe"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Black Coffe -</h3>
+              <p class="font-semibold">IDR 12K</p>
+            </div>
+          </div>
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/ice-kuwut.jpg"
+              alt="ice-kuwut"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Ice Kuwut -</h3>
+              <p class="font-semibold">IDR 10K</p>
+            </div>
+          </div>
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/juice.jpg"
+              alt="juice"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Juice -</h3>
+              <p class="font-semibold">IDR 12K</p>
+            </div>
+          </div>
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/lemon-tea.jpg"
+              alt="lemon-tea"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Lemon Tea -</h3>
+              <p class="font-semibold">IDR 10K</p>
+            </div>
+          </div>
+          <div class="mx-3 mb-6">
+            <img
+              src="dist/img/menu/melati-tea.jpg"
+              alt="melati-tea"
+              class="w-64 rounded-full"
+            />
+            <div class="mx-auto text-center mt-2">
+              <h3>- Melati Tea -</h3>
+              <p class="font-semibold">IDR 12K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-32 pb-24">
+      <div class="container mx-auto">
+        <div class="mx-auto mb-4">
+          <h2
+            class="text-primary text-2xl lg:text-4xl mb-10 text-center font-semibold"
+          >
+            <span class="text-scond">Kontak</span> Kami
+          </h2>
+          <p
+            class="px-4 mx-auto text-center max-w-xl text-sm lg:text-base mb-2"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem
+            molestias mollitia sunt molestiae fuga itaque voluptates sapiente
+            laborum saepe!
+          </p>
+        </div>
+
+        <div class="flex flex-wrap bg-slate-900 mt-4 mx-auto rounded-lg">
+          <div class="w-full md:w-1/2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2850.35312564966!2d109.70317518059134!3d-7.668447707485279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDAnMDMuNyJTIDEwOcKwNDInMTIuMSJF!5e0!3m2!1sid!2sid!4v1702574821039!5m2!1sid!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="w-full h-[320px] md:h-full object-cover"
+            ></iframe>
+          </div>
+          <div class="mx-auto w-full md:w-1/2">
+            <form action="submit" class="flex flex-col p-4">
+              <div
+                class="flex bg-dark p-4 w-full border border-white rounded-lg my-4"
+              >
+                <i data-feather="user"></i>
+                <input
+                  type="text"
+                  placeholder="name"
+                  class="focus:outline-none bg-transparent px-4 w-full"
+                />
+              </div>
+              <div
+                class="flex bg-dark p-4 w-full border border-white rounded-lg my-4"
+              >
+                <i data-feather="mail"></i>
+                <input
+                  type="email"
+                  placeholder="email"
+                  class="focus:outline-none bg-transparent px-4 w-full"
+                />
+              </div>
+              <div
+                class="flex bg-dark p-4 w-full border border-white rounded-lg my-4"
+              >
+                <i data-feather="phone"></i>
+                <input
+                  type="number"
+                  placeholder="phone number"
+                  class="focus:outline-none bg-transparent px-4 w-full"
+                />
+              </div>
+              <button
+                type="submit"
+                class="px-3 py-2 text-white w-1/3 mx-auto bg-primary hover:bg-amber-800 rounded-lg mt-3"
+              >
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="pt-24">
+      <div class="w-full bg-primary mx-auto text-center py-6">
+        <div
+          class="flex gap-6 items-center justify-center mb-5 text-center md:text-lg"
+        >
+          <a
+            href="https://www.instagram.com/bairuhakanzun/"
+            class="hover:text-dark"
+          >
+            <i data-feather="instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100012634635717"
+            class="hover:text-dark"
+          >
+            <i data-feather="facebook"></i>
+          </a>
+          <a href="https://twitter.com/bairuha_k" class="hover:text-dark">
+            <i data-feather="twitter"></i>
+          </a>
+        </div>
+
+        <div class="flex items-center justify-center gap-8 mb-2">
+          <a
+            href="#home"
+            class="text-base md:text-lg hover:text-dark hover:underline"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="text-base md:text-lg hover:text-dark hover:underline"
+            >Tentang Kami</a
+          >
+          <a
+            href="#menu"
+            class="text-base md:text-lg hover:text-dark hover:underline"
+            >Menu</a
+          >
+          <a
+            href="#contact"
+            class="text-base md:text-lg hover:text-dark hover:underline"
+            >Kontak</a
+          >
+        </div>
+
+        <div>
+          <p class="text-base md:text-lg">
+            Created by
+            <a
+              href="https://www.instagram.com/bairuhakanzun/"
+              class="text-pink-700 hover:underline"
+              >@bairuhakanzun</a
+            >
+            | &copy; 2023.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- javascript -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
